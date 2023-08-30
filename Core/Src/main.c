@@ -120,16 +120,6 @@ int main(void)
 
   LoRa_startReceiving(&myLoRa);
 
-//  uint8_t TxBuffer[16] = "Hola desde stm32" ;
-//  uint8_t TxBuffer[4];
-//  TxBuffer[0] = 'H';
-//  TxBuffer[1] = 'O';
-//  TxBuffer[2] = 'l';
-//  TxBuffer[3] = 'a';
-//
-//  LoRa_transmit(&myLoRa, TxBuffer, 4, 500);
-
-
   /* USER CODE END 2 */
 
   /* Infinite loop */
